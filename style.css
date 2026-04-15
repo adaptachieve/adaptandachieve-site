@@ -223,23 +223,27 @@ footer {
 }
 .accreditations {
   background-color: var(--section-soft);
-  text-align: center;
-  padding: 50px 0;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
 }
-
+.accreditations h3 {
+  text-align: left;
+}
 .accreditation-logos {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 30px;
   margin: 20px 0;
   flex-wrap: wrap;
 }
 
 .accreditation-logos img {
-  height: 80px;
+  height: 70px;
+  opacity: 0.95;
 }
 
 .accreditation-text {
   font-size: 0.95em;
   color: #555;
+  text-align: left;
 }
