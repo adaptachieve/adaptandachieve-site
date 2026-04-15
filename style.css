@@ -221,3 +221,25 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+.accreditations {
+  background-color: var(--section-soft);
+  text-align: center;
+  padding: 50px 0;
+}
+
+.accreditation-logos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.accreditation-logos img {
+  height: 80px;
+}
+
+.accreditation-text {
+  font-size: 0.95em;
+  color: #555;
+}
