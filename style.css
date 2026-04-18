@@ -79,10 +79,8 @@ h1 {
 
 .profile-photo {
   width: 230px;
-  max-width: 100%;
   border-radius: 12px;
-  display: block;
-  margin: 0 auto;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08); /* ADD THIS */
 }
 
 @media (max-width: 768px) {
@@ -105,12 +103,22 @@ h1 {
   font-weight: 600;
   text-decoration: none;
 }
-
-.button.secondary {
-  background: var(--green);
-  color: white;
+.button.primary {
+  background: white;
+  color: var(--blue);
 }
 
+.button.secondary {
+  background: white;
+  color: var(--blue);
+  border: 1px solid rgba(255,255,255,0.6);
+}
+
+.button.tertiary {
+  background: transparent;
+  color: white;
+  border: 1px solid rgba(255,255,255,0.6);
+}
 .button:hover {
   opacity: 0.92;
 }
@@ -225,25 +233,30 @@ footer {
   background-color: var(--section-soft);
   border-top: 1px solid #e0e0e0;
   border-bottom: 1px solid #e0e0e0;
+  padding-top: 40px; /* reduce top spacing slightly */
 }
 .accreditations h3 {
   text-align: left;
+  margin-bottom: 10px;
 }
+
 .accreditation-logos {
   display: flex;
-  justify-content: flex-start;
-  gap: 30px;
-  margin: 20px 0;
-  flex-wrap: wrap;
+  align-items: center; /* ADD THIS */
+  gap: 20px; /* tighten spacing */
 }
 
 .accreditation-logos img {
-  height: 70px;
-  opacity: 0.95;
+  height: 80px; /* make consistent */
+  object-fit: contain; /* keeps proportions neat */
 }
-
 .accreditation-text {
   font-size: 0.95em;
   color: #555;
   text-align: left;
+}
+.button.linkedin {
+  background: transparent;
+  color: var(--blue);
+  border: 1px solid var(--blue);
 }
