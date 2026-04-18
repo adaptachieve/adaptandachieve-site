@@ -260,3 +260,18 @@ footer {
   color: var(--blue);
   border: 1px solid var(--blue);
 }
+.button.solid {
+  background: var(--blue);
+  color: white;
+  border: none;
+}
+
+.button.solid:hover {
+  background: var(--green);
+  color: white;
+}
+.cta-note {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #666;
+}
