@@ -470,3 +470,7 @@ footer a:hover {
 .split-card-coaching .button.solid:hover {
   opacity: 0.92;
 }
+.page-coaching .services h3 {
+  color: var(--blue);
+  font-weight: 500;
+}
