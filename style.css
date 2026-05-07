@@ -147,6 +147,39 @@ section {
   background-color: var(--section-soft-blue);
   border-left: 4px solid var(--green);
 }
+.culture {
+  background-color: var(--section-white);
+}
+
+.culture h2 {
+  color: var(--blue);
+}
+
+.culture-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.culture-card {
+  background: #fcfcfa;
+  padding: 26px;
+  border-radius: 8px;
+  border-left: 4px solid var(--blue);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+}
+
+.culture-card h3 {
+  color: var(--blue);
+  margin-top: 0;
+}
+
+@media (max-width: 900px) {
+  .culture-grid {
+    grid-template-columns: 1fr;
+  }
+}
 .page-coaching .approach {
   border-left: 4px solid var(--blue);
 }
@@ -473,4 +506,9 @@ footer a:hover {
 .page-coaching .services h3 {
   color: var(--blue);
   font-weight: 500;
+}
+.accreditation-id {
+  font-size: 0.85em;
+  color: #777;
+  margin-top: 8px;
 }
