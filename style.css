@@ -512,3 +512,36 @@ footer a:hover {
   color: #777;
   margin-top: 8px;
 }
+.policy {
+  padding: 60px 20px;
+  background: #ffffff;
+}
+
+.policy .container {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.policy h1 {
+  margin-bottom: 10px;
+}
+
+.policy h2 {
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.policy p,
+.policy li {
+  line-height: 1.7;
+}
+
+.policy ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+footer a {
+  color: inherit;
+  text-decoration: underline;
+}
