@@ -593,3 +593,25 @@ footer a {
     grid-template-columns: 1fr;
   }
 }
+.privacy-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+.privacy-table th,
+.privacy-table td {
+  border: 1px solid #d9d9d9;
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.privacy-table th {
+  background-color: #f4f4f4;
+  font-weight: 600;
+}
+
+.privacy-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
