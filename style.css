@@ -1,6 +1,6 @@
 :root {
   --blue: #1F5E7A;
-  --green: #3A8F6B;
+  --green: #2F6F5C;
   --light: #F7F7F5;
   --dark: #2A2A2A;
   --section-white: #FFFFFF;
@@ -339,6 +339,9 @@ footer {
   padding: 30px;
   border-radius: 8px;
   border-left: 4px solid var(--green);
+  display: flex;
+  flex-direction: column;
+}
 }
 
 .split-card h3 {
@@ -441,8 +444,8 @@ footer a:hover {
 }
 
 /* Business Continuity - green tone */
-.hero-bc {
-  background: linear-gradient(135deg, var(--green), #4aa37f);
+.hero-bc{background:linear-gradient(135deg,
+#214C56,#2F6F5C);
 }
 /* Coaching page headings */
 .page-coaching h2 {
@@ -614,4 +617,24 @@ footer a {
 
 .privacy-table tr:nth-child(even) {
   background-color: #fafafa;
+}
+/* Business Continuity page buttons */
+.page-bc .button.solid {
+    background: var(--green);
+}
+
+.page-bc .button.solid:hover {
+    background: #2F6F5C;   /* or your darker green if you change the palette */
+}
+/* Coaching page buttons */
+.page-coaching .button.solid {
+    background: var(--blue);
+}
+
+.page-coaching .button.solid:hover {
+    background: #174C63;
+}
+.split-card .button {
+    margin-top: auto;
+    align-self: flex-start;
 }
